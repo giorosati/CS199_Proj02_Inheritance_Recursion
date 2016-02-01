@@ -118,7 +118,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="proj2.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="main_for_week4_worksheet.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circle.hpp" />
+    <ClInclude Include="rectangle.hpp" />
+    <ClInclude Include="shape.hpp" />
+    <ClInclude Include="triangle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
